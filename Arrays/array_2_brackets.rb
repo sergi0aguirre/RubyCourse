@@ -2,6 +2,7 @@
 #Create method  that receives and array and  get each element and mutiply it for one number
 # the number should be pass as a parameter
 # your_method(array, number)
+# using Map and NTimes loops
    array = ["sergio", "Richard", "aziz"]
 
 
