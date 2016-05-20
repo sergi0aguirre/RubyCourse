@@ -1,5 +1,5 @@
-#From and array of items  you need to define which items are ODD and what are EVEN
-#Use loop structures and N.times structures
+#From and array of items  you need to define which items are ODD and which are EVEN
+#Use loop structures OR N.times structures
 # You Are going to create 2 arrays  odd_array  and even_array
 # At the end you are going to print out both arrays.
 # make encapsulation and Dont Repeat Yourself
