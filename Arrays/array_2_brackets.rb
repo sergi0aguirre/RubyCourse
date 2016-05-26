@@ -22,6 +22,7 @@
 
 
 
+
   multiply(array, 2)
   puts "==========="
   multiply_with_map(array, 3)
