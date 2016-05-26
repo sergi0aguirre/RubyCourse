@@ -20,7 +20,7 @@ puts myArray.inspect
 
 
 ##Create and array of numbers and for each nmber retrieve  the numbers that are greater than 20
-## as array
+## as array  USE EACH AND EACH WITH INDEX
 ##
 #   your method needs to delete from the initial array all the numbers that are less than 20
 #  myarray = [1,3 ,4,60,5, 6, 40, 560, 30 , 50]
@@ -34,8 +34,8 @@ puts myArray.inspect
 #  puts myarray.inspect
       =>[60,40, 560, 30 , 50]
 
-# first method is   the method that iterates and delete the items
-# second method is the one that print the result array
+# first method is   the method that iterates and delete the items   ( Each with index )
+# second method is the one that print the result array (each or each with index)
 
 ## RESEARCH ABOUT HASH    .. HASHES  =>> google "ruby hash"
 #do some examples.
