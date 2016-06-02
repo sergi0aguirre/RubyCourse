@@ -17,6 +17,7 @@ Initial hash:
      year: 2012,
      features: {ac: false, abs_breaks: true, automatic_transmition: false}
      serials: [3,455,67,78,890,20,467]
+
    }
 
    corolla= {
@@ -55,7 +56,7 @@ STEPS
          to add hashkeys,  a method that retrieves the :velocity items, methods to print the result.
          ( IT IS A SUGGESTION YOU DONT NEED TO CREATE THOSE METHODS, BUT AT LEAST YOU SHOULD HAVE MORE THAN ONE METHOD IN YOUR CODE)
 
-AFTER YOU FINISH YOU COULD DO A RESEARCH ABOUT CLASSES, SO READ THE FOLLOWING ARTICLES , I WILL ASK YOU QUESTIONS ABOUT IT. 
+AFTER YOU FINISH YOU COULD DO A RESEARCH ABOUT CLASSES, SO READ THE FOLLOWING ARTICLES , I WILL ASK YOU QUESTIONS ABOUT IT.
 Read the following articles and understand the concepts and examples :
     http://www.eriktrautman.com/posts/ruby-explained-classes
     http://www.tutorialspoint.com/ruby/ruby_classes.htm
