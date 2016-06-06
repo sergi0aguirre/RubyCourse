@@ -29,10 +29,60 @@
 #       ====>   Is Man?:  true
 #       ====>   Is Women?:  false
 
+#
+# AGAIN after you finished remember to read and discuss the following articles:
+# Read the following articles and understand the concepts and examples :
+#     http://www.eriktrautman.com/posts/ruby-explained-classes
+#     http://www.tutorialspoint.com/ruby/ruby_classes.htm
+#
+#    FOCUS ON VARIABLE TYPES DEFINITIONS ( CLASS VARIABLE, INSTANCE VARIABLE, ETC.. )
 
-AGAIN after you finished remember to read and discuss the following articles:
-Read the following articles and understand the concepts and examples :
-    http://www.eriktrautman.com/posts/ruby-explained-classes
-    http://www.tutorialspoint.com/ruby/ruby_classes.htm
+class Person
+  def initialize(personHash)
+    @name = personHash[:name]
+    @dob = personHash[:dob]
+    @address = personHash[:address]
+    @gender = personHash[:gender]
+  end
 
-   FOCUS ON VARIABLE TYPES DEFINITIONS ( CLASS VARIABLE, INSTANCE VARIABLE, ETC.. )
+  def show_profile
+    puts "Profile info "
+    puts "\tname: #{@name} "
+    puts "\tdob: #{@dob} "
+    puts "\taddress: #{@address} "
+    puts "\tgender: #{@gender}"
+    puts "\tHe is a Man" if is_man?
+    puts "\tHe is a Women" if is_women?
+  end
+
+  def is_man?
+    @gender == 'Male'
+  end
+
+  def is_women?
+    @gender == 'Female'
+  end
+
+  def otherMethod(string)
+     string + " End of the string"
+     50
+  end
+
+  def name=(newname)
+    @name = newname
+  end
+
+end
+
+person1 = {name: 'Sergio', dob: '1984/12/22', address: 'Some adrress ..', gender: 'Male'}
+person2 = {name: 'Michael', dob: '1994/11/21', address: 'ddfdfSome adrress ..', gender: 'Female'}
+personInstance = Person.new(person1)
+personMichael = Person.new(person2)
+
+personInstance.show_profile
+personInstance.name='New name runtime'
+personInstance.show_profile
+
+personMichael.show_profile
+result = personMichael.otherMethod('Students string') + 1000
+puts "the result is : #{result}"
